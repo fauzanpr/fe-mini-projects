@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Quicksand', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  margin: auto;
+  width: fit-content;
+  background-color: #f9f9f9;
+  padding: 8rem 5rem;
+  border-radius: 30px;
   display: flex;
   flex-direction: column;
+  gap: 6rem;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.btn {
+  background-color: #00ab1f;
+  border: none;
   color: white;
+  padding: .5em 1em;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.btn:hover {
+  background-color: #02ba24;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn--stop {
+  background-color: #fd4646;
+  display: block;
+  margin: auto;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+}
+
+.btn--stop:hover {
+  background-color: #fc3030;
+}
+
+.count-container {
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 20vh;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.set-long-container {
+  display: flex;
+  column-gap: .5rem;
+}
+
+.set-long-container input {
+  padding: 1rem;
+  border: 2px solid #afafc5;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.count {
+  font-size: 5.5rem;
+  color: black;
 }
