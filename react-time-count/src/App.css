@@ -47,6 +47,14 @@ body {
   background-color: #02ba24;
 }
 
+.btn--set {
+  background-color: black;
+}
+
+.btn--set:hover {
+  background-color: #303030;
+}
+
 .btn--stop {
   background-color: #fd4646;
   display: block;
