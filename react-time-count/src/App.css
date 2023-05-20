@@ -55,6 +55,16 @@ body {
   background-color: #303030;
 }
 
+.btn--reset {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.btn--reset:hover {
+  background-color: #e6e6e6;
+}
+
 .btn--stop {
   background-color: #fd4646;
   display: block;
