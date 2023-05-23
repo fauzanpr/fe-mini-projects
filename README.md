@@ -7,4 +7,4 @@ This repo contains some mini-projects in <b>frontend web development</b> that I 
 
 ---
 - [React Time Count](https://github.com/fauzanpr/fe-mini-projects/tree/master/react-time-count)
-- [Scroll and Static](https://github.com/fauzanpr/fe-mini-projects/tree/master/scroll-and-static) (on progress)
+- [Scroll and Static](https://github.com/fauzanpr/fe-mini-projects/tree/master/scroll-and-static)
