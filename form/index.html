@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Register Form</h1>
+        <form class="form">
+            <fieldset class="form-group">
+                <legend>Personal Information</legend>
+                <div class="form-flex">
+                    <div class="form-item">
+                        <label for="firstname" class="form-item__label">Firstname</label>
+                        <input type="text" name="firstname" id="firstname" autocomplete="given-name">
+                    </div>
+                    <div class="form-item">
+                        <label for="lastname">Lastname</label>
+                        <input type="text" name="lastname" id="lastname" autocomplete="family-name">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label for="birthdate">Birthdate</label>
+                    <input type="date" name="birthdate" id="birthdate" autocomplete="bday">
+                </div>
+                <div class="form-item">
+                    <label for="birthdate">Gender</label>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="none">Prefer not to say</option>
+                    </select>
+                </div>
+                <div class="form-item">
+                    <label for="address">Address</label>
+                    <input type="text" name="address" id="address" autocomplete="street-address">
+                </div>
+            </fieldset>
+            <fieldset class="form-group">
+                <legend>Account Information</legend>
+                <div class="form-item">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" autocomplete="username">
+                </div>
+                <div class="form-item">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-flex">
+                    <div class="form-item">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="form-item">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password">
+                    </div>
+                </div>
+            </fieldset>
+            <button class="btn">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>

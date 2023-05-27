@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Rubik:wght@300;400;500&display=swap');
+
+:root {
+    --col-pink: #368bfa;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f3f0f0;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 60%;
+    padding: 2rem;
+    border: 2px solid #eaeaea;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: var(--col-pink);
+    margin: 0 auto 2rem auto;
+    width: fit-content;
+}
+
+.form {
+    padding: 0 8rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    border: none;
+}
+
+.form-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.form-flex .form-item {
+    width: 100%;
+}
+
+.form-group legend {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+
+}
+
+.form-item {
+    margin-bottom: .75rem;
+}
+
+.form-item label {
+    display: block;
+    width: fit-content;
+    margin-bottom: .5rem;
+}
+
+.form-item input, .form-item select {
+    width: 100%;
+    padding: .5rem;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 10px;
+    border: 1px solid #dad8d8;
+}
+
+.btn {
+    background-color: white;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: .75rem 1.5rem;
+    background-color: var(--col-pink);
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    box-shadow: #60a2f9 -6px 5px 0px;
+    color: var(--col-pink);
+    background-color: #fdfbfb;
+}
