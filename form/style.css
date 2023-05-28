@@ -71,6 +71,10 @@ h1 {
     margin-bottom: .5rem;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 .form-item input, .form-item select {
     width: 100%;
     padding: .5rem;
@@ -79,6 +83,14 @@ h1 {
     border-radius: 10px;
     border: 1px solid #dad8d8;
 }
+
+/* .form-item input:user-invalid {
+    border-color: red;
+} */
+
+/* .form-item input:required {
+    border-color: #dad8d8;
+} */
 
 .btn {
     background-color: white;
